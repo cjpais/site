@@ -1,0 +1,316 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "/Users/cj/code/personal/site/packages/contracts-forge/src/Relational.sol",
+    "exportedSymbols": {
+      "Relational": [
+        2357
+      ]
+    },
+    "id": 2358,
+    "license": "UNLICENSED",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2336,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".13"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:24:4"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Relational",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": true,
+        "id": 2357,
+        "linearizedBaseContracts": [
+          2357
+        ],
+        "name": "Relational",
+        "nameLocation": "75:10:4",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Relational.Relationship",
+            "id": 2341,
+            "members": [
+              {
+                "constant": false,
+                "id": 2338,
+                "mutability": "mutable",
+                "name": "addr",
+                "nameLocation": "174:4:4",
+                "nodeType": "VariableDeclaration",
+                "scope": 2341,
+                "src": "166:12:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 2337,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "166:7:4",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2340,
+                "mutability": "mutable",
+                "name": "id",
+                "nameLocation": "196:2:4",
+                "nodeType": "VariableDeclaration",
+                "scope": 2341,
+                "src": "188:10:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 2339,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "188:7:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Relationship",
+            "nameLocation": "143:12:4",
+            "nodeType": "StructDefinition",
+            "scope": 2357,
+            "src": "136:117:4",
+            "visibility": "public"
+          },
+          {
+            "canonicalName": "Relational.Post",
+            "id": 2356,
+            "members": [
+              {
+                "constant": false,
+                "id": 2343,
+                "mutability": "mutable",
+                "name": "id",
+                "nameLocation": "289:2:4",
+                "nodeType": "VariableDeclaration",
+                "scope": 2356,
+                "src": "281:10:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 2342,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "281:7:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2345,
+                "mutability": "mutable",
+                "name": "author",
+                "nameLocation": "309:6:4",
+                "nodeType": "VariableDeclaration",
+                "scope": 2356,
+                "src": "301:14:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 2344,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "301:7:4",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2347,
+                "mutability": "mutable",
+                "name": "createdTimestamp",
+                "nameLocation": "333:16:4",
+                "nodeType": "VariableDeclaration",
+                "scope": 2356,
+                "src": "325:24:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 2346,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "325:7:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2349,
+                "mutability": "mutable",
+                "name": "modifiedTimestamp",
+                "nameLocation": "367:17:4",
+                "nodeType": "VariableDeclaration",
+                "scope": 2356,
+                "src": "359:25:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 2348,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "359:7:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2351,
+                "mutability": "mutable",
+                "name": "data",
+                "nameLocation": "401:4:4",
+                "nodeType": "VariableDeclaration",
+                "scope": 2356,
+                "src": "394:11:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 2350,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "394:6:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 2355,
+                "mutability": "mutable",
+                "name": "relationships",
+                "nameLocation": "430:13:4",
+                "nodeType": "VariableDeclaration",
+                "scope": 2356,
+                "src": "415:28:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_array$_t_struct$_Relationship_$2341_storage_$dyn_storage_ptr",
+                  "typeString": "struct Relational.Relationship[]"
+                },
+                "typeName": {
+                  "baseType": {
+                    "id": 2353,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 2352,
+                      "name": "Relationship",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 2341,
+                      "src": "415:12:4"
+                    },
+                    "referencedDeclaration": 2341,
+                    "src": "415:12:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Relationship_$2341_storage_ptr",
+                      "typeString": "struct Relational.Relationship"
+                    }
+                  },
+                  "id": 2354,
+                  "nodeType": "ArrayTypeName",
+                  "src": "415:14:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_struct$_Relationship_$2341_storage_$dyn_storage_ptr",
+                    "typeString": "struct Relational.Relationship[]"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Post",
+            "nameLocation": "266:4:4",
+            "nodeType": "StructDefinition",
+            "scope": 2357,
+            "src": "259:191:4",
+            "visibility": "public"
+          }
+        ],
+        "scope": 2358,
+        "src": "65:389:4",
+        "usedErrors": []
+      }
+    ],
+    "src": "39:417:4"
+  }
+}
